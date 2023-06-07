@@ -31,3 +31,27 @@ body {
     color: white;
     margin-bottom:0px;
   }
+
+  
+  /* Media Queries */
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px wide (e.g., tablets) */
+  h1 {
+      font-size: 60px;
+  }
+
+  h3 {
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px wide (e.g., mobile devices) */
+  h1 {
+      font-size: 40px;
+  }
+
+  h3 {
+      font-size: 20px;
+  }
+}
